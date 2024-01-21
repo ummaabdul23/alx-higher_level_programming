@@ -2,11 +2,12 @@
 import random
 number = random.randint(-10000, 10000)
 # YOUR CODE HERE
+original_number = number
 if number < 0:
-    number = -number
+    number = -(number)
 
 last_digit = number % 10
-if last_digit < 0:
+if original_number < 0:
     last_digit = -(last_digit)
 
 if last_digit > 5:
