@@ -15,8 +15,7 @@ typedef struct listint_s
 size_t print_listint(const listint_t *h);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
-void reverse_list(listint_t **head);
-int list_equiv(listint_t *l1, listint_t *l2);
+
 int is_palindrome(listint_t **head);
 
 #endif /* LISTS_H */
