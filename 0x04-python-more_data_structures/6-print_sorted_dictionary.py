@@ -6,4 +6,3 @@ def print_sorted_dictionary(a_dictionary):
     # Iterate through the sorted keys and print key-value pairs
     for key in sorted_keys:
         print(f'{key}: {a_dictionary[key]}')
-
