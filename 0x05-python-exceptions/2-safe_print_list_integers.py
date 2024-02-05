@@ -11,6 +11,6 @@ def safe_print_list_integers(my_list=[], x=0):
                 break
         print()
         return count
-    except(ValueError, TypeError):
-        print("An error occurred.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
         return 0
