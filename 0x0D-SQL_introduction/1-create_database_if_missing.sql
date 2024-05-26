@@ -1,1 +1,2 @@
-VimCrypt~03!ò‡LÆŞÖŸş]‰Ç»[”/‘ìF¸ï[!…›uQÇëÊàÑ:€èáE—Ì‘Öõ¬şTHæ(ÆÏ]¥¼‚€l„İ‚â¨W­ÌE$ån^Ú?cUEæEXˆşA–Ëƒ©ÉWÑ¨%EœÒ
+--creates the database hbtn_0c_0 in mysql server
+  1 CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
