@@ -1,2 +1,2 @@
-VimCrypt~03!4-Òyq¼+BùŞ®4óÏtï'—’ìÊÿpxÀ4 ä6½'¼.ÃÂŒÈšlß+Lâú“öT°y]ª-³6>'ıÍ¬6ÊŞK¬œÿ05´?dß¼5†…¬æ8|Z}±ï+åà}p«»½Í[8ÀŞŒ¶Œ$Oş,LƒÓ¥ÅÊZZLÒŒ/
-8¦`ë°Ó> TP,St#]ÎF†·VøëåuAO|ôÀNÚq0”;^'aŞ‹DŠ&œ
+ -- lists the number of records with the same score in the table second_table
+SELECT score, COUNT(score) AS number FROM second_table GROUP BY score ORDER BY score DESC;
